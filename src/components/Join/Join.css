@@ -1,0 +1,106 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .joinOuterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #1A1A1D;
+  }
+  
+  .joinInnerContainer {
+    width: 20%;
+  }
+  
+  .joinInput {
+    border-radius: 0;
+    padding: 15px 20px;
+    width: 100%;
+  }
+  
+  .heading {
+    color: #000814;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+  
+  .button {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #000814;
+      padding: 20px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      width: 100%;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainer {
+      height: 100%;
+    }
+  
+    .joinInnerContainer {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+
+  
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+  /* DESING */
+  .v{
+    overflow: hidden;    
+    -webkit-animation: v 8s infinite;
+    animation: v 8s infinite;
+}
+
+@keyframes v{
+  0% {background:#29ADF0;}
+  20%{background:#F02999;}
+  40%{background:#F06E29;}
+  60%{background:#F0D829;}
+  80%{background:#29F03A;}
+  100%{background:#29ADF0;}
+}
+
+@-webkit-keyframes v{
+  0% {background:#29ADF0;}
+  20%{background:#F02999;}
+  40%{background:#F06E29;}
+  60%{background:#F0D829;}
+  80%{background:#29F03A;}
+  100%{background:#29ADF0;}
+}
